@@ -1,0 +1,1738 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Project Title</title>
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.16.0/cdn/themes/light.css" />
+  <script type="module"
+    src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.16.0/cdn/shoelace-autoloader.js"></script>
+
+  <link rel="stylesheet" href="./index.css">
+
+  <link rel="stylesheet" href="./components/team-member/team-member.css">
+  <script type="module" src="./components/team-member/team-member.js"></script>
+
+  <link rel="stylesheet" href="./components/table-of-content/table-of-content.css">
+
+  <script type="module" src="./components/image/image-component.js"></script>
+
+  <script type="module" src="./components/video/video.js"></script>
+
+  <link rel="stylesheet" href="./components/references/references.css">
+
+  <link rel="stylesheet" href="./components/scroll-to-top/scroll-to-top.css">
+  <script src="./components/scroll-to-top/scroll-to-top.js"></script>
+
+  <script src="./components/table-component/table-component.js"></script>
+
+  <link href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="content">
+    <h1>Understanding Our Ocean: CuCuWorks</h1>
+
+    <!-- This is the team member component use to display details about your team members -->
+    <div class="team-member-wrapper">
+      <team-member avatar="assets/ananya.jpg" name="Ananya Vijay Krishnan" department="Biomedical Engineering"
+        year="Year 4"></team-member>
+      <team-member avatar="assets/ashley.png" name="Ashley Madeline Ng" department="Biomedical Engineering"
+        year="Year 4"></team-member>
+      
+    </div>
+
+    <!-- This is a divide from the shoelace library for aesthetic purpose -->
+    <sl-divider></sl-divider>
+
+    <!-- This is the table-of-content component use to define all of the link directly to each section -->
+    
+
+<div class="table-of-content">
+  <sl-tree>
+
+    <!-- SECTION 1 -->
+    <sl-tree-item expanded>
+      <a href="#section-header-1">1. Introduction and Background</a>
+
+      <sl-tree-item>
+        <a href="#sub-section-1-header-1">1.1 Project Background</a>
+      </sl-tree-item>
+
+      <sl-tree-item>
+        <a href="#sub-section-1-header-2">1.2 Project Partners: OceanX and LKCNHM</a>
+      </sl-tree-item>
+
+      <sl-tree-item>
+        <a href="#sub-section-1-header-3">1.3 Importance of Ocean Literacy</a>
+      </sl-tree-item>
+    </sl-tree-item>
+
+    <!-- SECTION 2 -->
+    <sl-tree-item>
+      <a href="#section-header-2">2. Primary Research and Stakeholder Engagement</a>
+
+      <sl-tree-item>
+        <a href="#sub-section-2-header-1">2.1 Meeting with LKCNHM Curators</a>
+      </sl-tree-item>
+
+      <sl-tree-item>
+        <a href="#sub-section-2-header-2">2.2 Storytelling Workshop with James Honeyborne</a>
+      </sl-tree-item>
+
+      <sl-tree-item>
+        <a href="#sub-section-2-header-3">2.3 Public Perception and User Needs Survey</a>
+
+        <sl-tree-item>
+          <a href="#sub-section-2-header-3-1">2.3.1 Understanding Ocean Processes</a>
+        </sl-tree-item>
+
+        <sl-tree-item>
+          <a href="#sub-section-2-header-3-2">2.3.2 Familiarity with Sea Cucumbers</a>
+        </sl-tree-item>
+
+        <sl-tree-item>
+          <a href="#sub-section-2-header-3-3">2.3.3 Preferred Educational Approaches</a>
+        </sl-tree-item>
+
+        <sl-tree-item>
+          <a href="#sub-section-2-header-3-4">2.3.4 Summary of Survey Findings</a>
+        </sl-tree-item>
+      </sl-tree-item>
+    </sl-tree-item>
+
+    <!-- SECTION 3 -->
+    <sl-tree-item>
+      <a href="#section-header-3">3. Secondary Research and Literature Review</a>
+
+      <sl-tree-item>
+        <a href="#sub-section-3-header-1">3.1 Ocean Literacy and Science Communication</a>
+      </sl-tree-item>
+
+      <sl-tree-item>
+        <a href="#sub-section-3-header-2">3.2 Active and Experiential Learning</a>
+      </sl-tree-item>
+
+      <sl-tree-item>
+        <a href="#sub-section-3-header-3">3.3 Learning in Museum Environments</a>
+      </sl-tree-item>
+
+      <sl-tree-item>
+        <a href="#sub-section-3-header-4">3.4 Summary of Secondary Research Findings</a>
+      </sl-tree-item>
+    </sl-tree-item>
+
+    <!-- SECTION 4 -->
+    <sl-tree-item>
+      <a href="#section-header-4">4. Problem Definition and Design Opportunity</a>
+
+      <sl-tree-item>
+        <a href="#sub-section-4-header-1">4.1 Research Synthesis</a>
+      </sl-tree-item>
+
+      <sl-tree-item>
+        <a href="#sub-section-4-header-2">4.2 Root Causes</a>
+      </sl-tree-item>
+
+      <sl-tree-item>
+        <a href="#sub-section-4-header-3">4.3 Problem Statement</a>
+      </sl-tree-item>
+
+      <sl-tree-item>
+        <a href="#sub-section-4-header-4">4.4 Target Audience</a>
+      </sl-tree-item>
+
+      <sl-tree-item>
+        <a href="#sub-section-4-header-5">4.5 Design Opportunity</a>
+      </sl-tree-item>
+
+      <sl-tree-item>
+        <a href="#sub-section-4-header-6">4.6 Value Proposition</a>
+      </sl-tree-item>
+    </sl-tree-item>
+
+    
+
+
+<!-- SECTION 5 -->
+<sl-tree-item>
+  <a href="#section-header-5">5. Exploration and Selection of Marine Organisms</a>
+
+  <sl-tree-item>
+    <a href="#sub-section-5-header-1">5.1 Initial Concept Exploration</a>
+  </sl-tree-item>
+
+  <sl-tree-item>
+    <a href="#sub-section-5-header-2">5.2 Narrowing Down: Sea Cucumbers</a>
+  </sl-tree-item>
+
+  <sl-tree-item>
+    <a href="#sub-section-5-header-3">5.3 Biological Functions of Sea Cucumbers</a>
+  </sl-tree-item>
+
+  <sl-tree-item>
+    <a href="#sub-section-5-header-4">5.4 Ecological Importance and Conservation</a>
+  </sl-tree-item>
+</sl-tree-item>
+
+<!-- SECTION 6 -->
+<sl-tree-item>
+  <a href="#section-header-6">6. Design Brief</a>
+
+  <sl-tree-item>
+    <a href="#sub-section-6-header-1">6.1 Design Objectives</a>
+
+    <sl-tree-item>
+      <a href="#sub-section-6-1-header-1">6.1.1 Objective 1 - Enhance Visitor Engagement</a>
+    </sl-tree-item>
+
+    <sl-tree-item>
+      <a href="#sub-section-6-1-header-2">6.1.2 Objective 2 - Improve Understanding of Sea Cucumber Biological Function and Ecological Significance</a>
+    </sl-tree-item>
+  </sl-tree-item>
+
+  <sl-tree-item>
+    <a href="#sub-section-6-header-2">6.2 Intended Experience and Outcomes</a>
+
+    <sl-tree-item>
+      <a href="#sub-section-6-2-header-1">6.2.1 Intended Learning Experience</a>
+    </sl-tree-item>
+
+    <sl-tree-item>
+      <a href="#sub-section-6-2-header-2">6.2.2 Intended Learning Outcomes</a>
+    </sl-tree-item>
+  </sl-tree-item>
+
+  <sl-tree-item>
+    <a href="#sub-section-6-header-3">6.3 Design Requirements</a>
+  </sl-tree-item>
+</sl-tree-item>
+
+
+
+    <!-- SECTION 7 -->
+    <sl-tree-item>
+      <a href="#section-header-7">7. Concept Design</a>
+
+      <sl-tree-item>
+        <a href="#sub-section-7-header-1">7.1 Concept Development</a>
+      </sl-tree-item>
+
+      <sl-tree-item>
+        <a href="#sub-section-7-header-2">7.2 CuCuWorks Concept</a>
+
+        <sl-tree-item>
+          <a href="#sub-section-7-header-2-1">7.2.1 Anatomy-to-Model Mapping</a>
+        </sl-tree-item>
+
+        <sl-tree-item>
+          <a href="#sub-section-7-header-2-2">7.2.2 Working Principles and Visitor Journey</a>
+        </sl-tree-item>
+      </sl-tree-item>
+
+      <sl-tree-item>
+        <a href="#sub-section-7-header-3">7.3 Mechanical Ideation and Design Iterations</a>
+
+        <sl-tree-item>
+          <a href="#sub-section-7-header-3-1">7.3.1 Digestive Mechanism</a>
+        </sl-tree-item>
+
+        <sl-tree-item>
+          <a href="#sub-section-7-header-3-2">7.3.2 Nutrient Absorption</a>
+        </sl-tree-item>
+
+        <sl-tree-item>
+          <a href="#sub-section-7-header-3-3">7.3.3 Sediment Intake</a>
+        </sl-tree-item>
+
+        <sl-tree-item>
+          <a href="#sub-section-7-header-3-4">7.3.4 Collection Feedback Pool</a>
+        </sl-tree-item>
+      </sl-tree-item>
+
+      <sl-tree-item>
+        <a href="#sub-section-7-header-4">7.4 Current Design Limitations</a>
+      </sl-tree-item>
+    </sl-tree-item>
+
+    <!-- SECTION 8 -->
+    <sl-tree-item>
+      <a href="#section-header-8">8. Prototyping and Testing Plan</a>
+
+      <sl-tree-item>
+        <a href="#sub-section-8-header-1">8.1 Preliminary CAD and Digital Simulation Prototype</a>
+      </sl-tree-item>
+
+      <sl-tree-item>
+        <a href="#sub-section-8-header-2">8.2 Material Considerations for CuCuWorks</a>
+
+        <sl-tree-item>
+          <a href="#sub-section-8-header-2-1">8.2.1 Sand Composition</a>
+        </sl-tree-item>
+
+        <sl-tree-item>
+          <a href="#sub-section-8-header-2-2">8.2.2 Accompanying Visuals and Feedback Integration</a>
+        </sl-tree-item>
+      </sl-tree-item>
+
+      <sl-tree-item>
+        <a href="#sub-section-8-header-3">8.3 Proposed Testing and Evaluation</a>
+
+        <sl-tree-item>
+          <a href="#sub-section-8-header-3-1">8.3.1 Mechanical Testing</a>
+        </sl-tree-item>
+
+        <sl-tree-item>
+          <a href="#sub-section-8-header-3-2">8.3.2 User Testing</a>
+        </sl-tree-item>
+
+        <sl-tree-item>
+          <a href="#sub-section-8-header-3-3">8.3.3 Educational Evaluation</a>
+        </sl-tree-item>
+      </sl-tree-item>
+
+      <sl-tree-item>
+        <a href="#sub-section-8-header-5">8.4 Roadmap and Milestones</a>
+      </sl-tree-item>
+
+      <sl-tree-item>
+        <a href="#sub-section-8-header-6">8.5 Expected Outcomes</a>
+      </sl-tree-item>
+    </sl-tree-item>
+
+    <!-- REFERENCES -->
+    <sl-tree-item>
+      <a href="#references">References</a>
+    </sl-tree-item>
+
+  </sl-tree>
+</div>
+
+	</sl-tree>
+
+ 
+    <sl-divider></sl-divider>
+
+    <div>
+
+      <!-- This is an example of what a section might look like -->
+      <div id="section-header-1">
+        <h2> 1. Introduction and Background </h2>
+       
+      </div>
+
+      <div id="sub-section-1-header-1">
+        <h3>1.1 Project Background</h3>
+        
+<p style="margin-bottom: 20px;">
+    The ocean plays a vital role in sustaining life on Earth through ecological processes and interactions between marine organisms and their environments, many of which remain largely invisible to the public [1].
+</p>
+
+<p style="margin-bottom: 20px;">
+    Public awareness of marine organisms does not necessarily translate into an understanding of their ecological functions. Lesser-known organisms, for example the sea cucumber, perform important roles in maintaining ocean ecosystem health but are often recognised primarily for their commercial value rather than their ecological contributions [2], [3].
+</p>
+
+<p style="margin-bottom: 20px;">
+    Understanding Our Ocean aims to address this knowledge gap by developing an interactive educational experience that makes marine ecological processes more accessible. This is because interactive learning experiences provide an opportunity to allow participants to understand ocean knowledge effectively [4]. This project aims to communicate ecological processes that are difficult to observe directly, using physical interaction and play, using the sediment-processing function of sea cucumbers [5].
+</p>
+
+      </div>
+
+      <div id="sub-section-1-header-2">
+        <h3>1.2 Project Partners: OceanX and LKCNHM</h3>
+        
+<p style="margin-bottom: 20px;">
+    OceanX is a nonprofit ocean exploration and media organisation that combines scientific research, storytelling and immersive experiences to advance ocean discovery and public engagement. Its mission includes making marine science accessible and inspiring younger generations to develop an interest in ocean conservation [6].
+</p>
+
+<p style="margin-bottom: 20px;">
+    The Lee Kong Chian Natural History Museum (LKCNHM) complements these objectives through biodiversity research, exhibitions and educational programmes [7]. The museum contributed to OceanX's 2025 <i>Into the Deep: Monsoon Rise</i> expedition [8], which documented marine biodiversity, including lesser-known organisms such as deep-sea crabs and sea cucumbers.
+</p>
+
+<p style="margin-bottom: 20px;">
+    Together, these organisations provided the scientific and educational context for our project. OceanX demonstrated the importance of engaging storytelling, while LKCNHM highlighted the need to translate scientific discoveries into accessible learning experiences, particularly for younger audiences.
+</p>
+
+<div id="sub-section-1-header-3">
+    <h3>1.3 Importance of Ocean Literacy</h3>
+
+    <p style="margin-bottom: 20px;">
+        Ocean literacy refers to understanding the ocean's influence on humans and vice versa. An important aspect is recognising how marine organisms contribute to ecological processes that maintain healthy marine ecosystems [9], [10].
+    </p>
+
+    <p style="margin-bottom: 20px;">
+        However, many of these processes, such as sediment processing and nutrient recycling, are difficult to observe directly. This creates a gap between public awareness of marine organisms and understanding of their ecological functions, highlighting the need for more accessible approaches to ocean education [11], [12].
+    </p>
+</div>
+
+
+    
+
+
+    <br />
+    <br />
+    <sl-divider></sl-divider>
+    <div>
+      <div id="section-header-2">
+        <h2>2. Primary Research and Stakeholder Engagement
+</h2>
+        <p>
+          Primary research was conducted through meetings with stakeholders, workshops and a public survey to understand educational needs, identify knowledge gaps and inform the project's design direction.
+
+        </p>
+      </div>
+
+      <div id="sub-section-2-header-1">
+        <h3>2.1. Meeting with LKCNHM Curators
+</h3>
+        
+<p style="margin-bottom: 20px;">
+    We engaged with LKCNHM curators, who shared insights from the <i>Monsoon Rise</i> expedition [8], including research involving deep-sea crabs, lantern sharks and sea cucumbers [13].
+</p>
+
+<p style="margin-bottom: 20px;">
+    The discussion highlighted the diversity of lesser-known marine organisms and the museum's role in translating biodiversity research into educational experiences. Schoolchildren were identified as an important audience through the museum's educational programmes.
+</p>
+
+<p style="margin-bottom: 20px;">
+    These insights encouraged us to focus on an unfamiliar marine organism with a meaningful ecological function. Sea cucumbers emerged as a promising subject because their feeding and sediment-processing mechanisms were lesser-known, and had potential to be transformed into a hands-on experience.
+</p>
+
+
+    
+
+      <div id="sub-section-2-header-2">
+        <h3>2.2. Storytelling Workshop with James Honeyborne
+</h3>
+        
+<p style="margin-bottom: 20px;">
+    The team participated in a storytelling workshop with James Honeyborne, known for his work on BBC's <i>Blue Planet II</i> [14].
+</p>
+
+<p style="margin-bottom: 10px;">
+    Our key learnings from the workshop and speaking to Mr Honeyborne were that we should focus on:
+</p>
+
+<ol style="margin-bottom: 20px;">
+    <li>Audience-centred storytelling</li>
+    <li>Emotional engagement</li>
+    <li>The use of relatable marine organisms to communicate complex scientific concepts.</li>
+</ol>
+
+<p style="margin-bottom: 20px;">
+    It also highlighted the importance of positive messaging that inspires curiosity and appreciation rather than focusing exclusively on environmental threats.
+</p>
+
+<p style="margin-bottom: 20px;">
+    These findings influenced the decision to centre the experience around a single marine organism. Rather than simply presenting facts, the experience would allow visitors to discover an organism's ecological significance through their own actions [15].
+</p>
+
+<div id="sub-section-2-header-3">
+    <h3>2.3 Public Perception and User Needs Survey</h3>
+
+    <p style="margin-bottom: 20px;">
+        A preliminary survey involving 75 respondents investigated public understanding of marine ecosystems, familiarity with sea cucumbers and preferred educational approaches [16].
+    </p>
+</div>
+
+<div id="sub-section-2-3-header-1">
+    <h4>2.3.1 Understanding of Ocean Processes</h4>
+
+    <p style="margin-bottom: 20px;">
+        Only 13.3% of respondents could explain how specific ocean processes benefit humans, highlighting a gap between general awareness of ocean ecosystems and understanding of their ecological functions.
+    </p>
+</div>
+
+<image-component
+    tag="ocean-processes"
+    source="assets/ocean-processes.png"
+    subtitle="Figure 1: Respondents' understanding of ocean processes">
+</image-component>
+
+<div id="sub-section-2-3-header-2">
+    <h4>2.3.2 Familiarity with Sea Cucumbers</h4>
+
+    <p style="margin-bottom: 20px;">
+        A majority of respondents (78.7%) rated their understanding of sea cucumbers' ecological contributions at 1 or 2 out of 5, indicating limited familiarity with their role in marine ecosystems.
+    </p>
+
+    <image-component
+        tag="sea-cucumber-knowledge"
+        source="assets/sea-cucumber-knowledge.png"
+        subtitle="Fig 2. Survey Results on People's Familiarity with Sea Cucumbers">
+    </image-component>
+
+    <p style="margin-top: 25px; margin-bottom: 20px;">
+        While 82.7% associated sea cucumbers with seafood, only 17.3% associated them with nutrient recycling, highlighting greater awareness of their commercial uses than their ecological functions.
+    </p>
+
+    <image-component
+        tag="sea-cucumber-associations"
+        source="assets/sea-cucumber-associations.png"
+        subtitle="Survey Results on People's Associations with Sea Cucumbers">
+    </image-component>
+</div>
+
+<div id="sub-section-2-3-header-3">
+    <h4>2.3.3 Preferred Educational Approaches</h4>
+
+    <p style="margin-bottom: 20px;">
+        Hands-on/kinesthetic interaction was the most frequently selected approach (73.3%), followed by visual/artistic experiences (49.3%) and sensory experiences (44.0%).
+    </p>
+
+    <image-component
+        tag="preferred-educational-approaches"
+        source="assets/educational-approaches.png"
+        subtitle="Fig 4. Survey Results on People's Preferred Educational Approach">
+    </image-component>
+</div>
+
+<br />
+<br />
+<sl-divider></sl-divider>
+
+<div>
+    <div id="section-header-3">
+        <h2>3. Secondary Research and Literature Review</h2>
+    </div>
+
+    <div id="sub-section-3-header-1">
+        <h3>3.1 Ocean Literacy and Science Communication</h3>
+
+        <p style="margin-bottom: 20px;">
+            Ocean literacy emphasises understanding the relationship between marine ecosystems and human societies [17]. However, many ecological processes, including sediment processing and nutrient cycling, occur beyond direct human observation [18].
+        </p>
+
+        <p style="margin-bottom: 20px;">
+            Traditional educational approaches, including information panels, specimens and documentaries, provide valuable scientific information but may offer limited opportunities for visitors to physically experience the processes being described [19].
+        </p>
+
+        <p style="margin-bottom: 20px;">
+            Interactive exhibits provide an opportunity to complement these approaches by allowing visitors to manipulate simplified representations of biological mechanisms and observe their effects [19], [20].
+        </p>
+    </div>
+
+    <div id="sub-section-3-header-2">
+        <h3>3.2 Active and Experiential Learning</h3>
+
+        <p style="margin-bottom: 20px;">
+            Experiential learning emphasises knowledge development through direct experience and reflection [21].
+        </p>
+
+        <p style="margin-bottom: 20px;">
+            Research by Freeman et al. [22] found that active learning improved student performance compared with traditional lectures across undergraduate STEM disciplines. Similarly, Deslauriers et al. [23] demonstrated that active participation can produce stronger measured learning outcomes even when students perceive passive instruction as more effective.
+        </p>
+    </div>
+
+    <div id="sub-section-3-header-3">
+        <h3>3.3 Learning in Museum Environments</h3>
+
+        <p style="margin-bottom: 20px;">
+            Museum visitors have varying levels of prior knowledge, motivation and engagement. Educational experiences must therefore balance scientific accuracy with intuitive interaction and accessibility. Visitor observation research also highlights the relevance of dwell time and interaction patterns when evaluating exhibitions [24].
+        </p>
+    </div>
+
+    <div id="sub-section-3-header-4">
+        <h3>3.4 Summary of Secondary Research Findings</h3>
+
+        <p style="margin-bottom: 20px;">
+Secondary research supported the use of accessible, hands-on exhibits to communicate complex marine ecological processes, highlighting the educational benefits of active participation and intuitive interaction.        </p>
+    </div>
+</div>
+
+<!-- CHAPTER 4 -->
+<br />
+<br />
+<sl-divider></sl-divider>
+
+<div>
+    <div id="section-header-4">
+        <h2>4. Problem Definition and Design Opportunity</h2>
+    </div>
+
+    <div id="sub-section-4-header-1">
+        <h3>4.1 Research Synthesis</h3>
+
+        <p style="margin-bottom: 20px;">
+            Survey findings suggested limited understanding of ocean processes and meeting industry experts highlighted the importance of accessible science communication and engaging storytelling. Research into experiential learning further supported exploring physical participation as an educational approach [21], [22]
+        </p>
+    </div>
+
+    <div id="sub-section-4-header-2">
+        <h3>4.2 Root Causes of the Knowledge Gap</h3>
+
+        <p style="margin-bottom: 20px;">
+            Three key factors contribute to the identified ocean literacy gap:
+
+        <ol style="margin-bottom: 20px;">
+            <li style="margin-bottom: 15px;">
+                <strong>Limited visibility:</strong> Marine ecological processes such as sediment processing and nutrient recycling are difficult to observe directly [18].
+            </li>
+            <li style="margin-bottom: 15px;">
+                <strong>Limited functional understanding:</strong> Familiarity with an organism does not necessarily translate into understanding its contribution to ecosystem health [25].
+            </li>
+            <li style="margin-bottom: 15px;">
+                <strong>Challenges in science communication:</strong> Abstract biological processes may be difficult for younger audiences to understand through textual or visual explanations alone. [19], [26]
+            </li>
+        </ol>
+    </div>
+
+    <div id="sub-section-4-header-3">
+        <h3>4.3 Problem Statement</h3>
+
+        <p style="margin-bottom: 20px;">
+            How might we use hands-on interactive experiences to help young visitors understand the ecological functions of marine organisms and recognise their importance to healthy ocean ecosystems?
+        </p>
+    </div>
+
+    <div id="sub-section-4-header-4">
+        <h3>4.4 Target Audience</h3>
+
+        <p style="margin-bottom: 20px;">
+            The primary target audience comprises students and young museum visitors with varying levels of prior ocean knowledge. [26] The secondary audience includes families and curious visitors seeking accessible marine education.
+        </p>
+
+        <p style="margin-bottom: 20px;">
+            The experience is therefore intended to be intuitive, engaging and scientifically meaningful without requiring extensive prior knowledge.
+        </p>
+    </div>
+
+    <div id="sub-section-4-header-5">
+        <h3>4.5 Design Opportunity and Proposed Direction</h3>
+
+        <p style="margin-bottom: 20px;">
+            The identified opportunity is to transform the largely invisible process of sea cucumber sediment processing into a tangible educational experience.
+        </p>
+
+        <p style="margin-bottom: 20px;">
+            Our proposed experience follows an Experience–Understand–Act framework, encouraging visitors to participate in the process, understand its ecological significance and develop greater appreciation for marine biodiversity.
+        </p>
+    </div>
+
+    <div id="sub-section-4-header-6">
+        <h3>4.6 Value Proposition</h3>
+
+        <p style="margin-bottom: 20px;">
+            The proposed solution transforms invisible marine ecological processes into engaging, hands-on learning experiences, allowing visitors to explore and understand complex biological functions through physical interaction.
+        </p>
+
+        <p style="margin-bottom: 20px;">
+            For young museum visitors, it makes marine science accessible, interactive and memorable. For museums and educators, it offers a reusable teaching tool that complements traditional exhibits.
+        </p>
+
+        <p style="margin-bottom: 20px;">
+            By combining experiential learning with visual storytelling, the solution aims to turn passive observation into active discovery, inspiring greater appreciation for lesser-known marine organisms [19], [21].
+        </p>
+    </div>
+</div>
+
+
+<!-- CHAPTER 5 -->
+<br />
+<br />
+<sl-divider></sl-divider>
+
+<div>
+    <div id="section-header-5">
+        <h2>5. Exploration and Selection of Marine Organisms</h2>
+    </div>
+
+    <div id="sub-section-5-header-1">
+        <h3>5.1 Initial Concept Exploration</h3>
+
+        <p style="margin-bottom: 20px;">
+            Following the meetings with subject-matter experts, we explored three potential educational directions: deep-sea crabs, bioluminescence and sea cucumbers [13], [27]. Each was evaluated based on its ecological significance, potential for visitor engagement and suitability for translation into an interactive educational experience.
+        </p>
+    </div>
+
+    <div id="sub-section-5-header-2">
+        <h3>5.2 Narrowing Down: Sea Cucumbers</h3>
+
+        <p style="margin-bottom: 20px;">
+            Sea cucumbers were selected out of the ideas we explored, based on three main considerations:
+        </p>
+
+        <ol style="margin-bottom: 20px;">
+            <li style="margin-bottom: 15px;">
+                <strong>Educational relevance:</strong> Their ecological functions address an identified gap in public understanding.
+            </li>
+            <li style="margin-bottom: 15px;">
+                <strong>Interaction potential:</strong> Feeding and sediment processing can be represented through sequential physical mechanisms.
+            </li>
+            <li style="margin-bottom: 15px;">
+                <strong>Conservation significance:</strong> The experience can encourage visitors to recognise their value beyond commercial consumption.
+            </li>
+        </ol>
+    </div>
+
+    <div id="sub-section-5-header-3">
+        <h3>5.3 Biological Functions of Sea Cucumbers</h3>
+
+        <p style="margin-bottom: 20px;">
+            Sea cucumbers are marine echinoderms related to sea stars and sea urchins [28]. Many species inhabit the seafloor, where deposit-feeding species contribute to sediment processing and organic matter recycling [28], [18].
+        </p>
+
+        <p style="margin-bottom: 20px;">
+            Using specialised oral tentacles, deposit-feeding sea cucumbers collect sediment containing organic material [28]. As the material passes through their digestive system, digestible components are processed and nutrients absorbed, while undigested sediment is expelled [28], [29].
+        </p>
+    </div>
+</div>
+
+<image-component
+    tag="sea-cucumber-anatomy"
+    source="assets/Sea-Cucumber-Anatomy.jpg"
+    subtitle="Fig 5. Sea Cucumber's Anatomy">
+</image-component>
+
+<p style="margin-top: 25px; margin-bottom: 20px;">
+    The sequential nature of these processes makes them particularly suitable for a hands-on educational model, where visitors can simulate feeding, transport, separation and output.
+</p>
+
+<div id="sub-section-5-header-4">
+    <h3>5.4 Ecological Importance and Conservation</h3>
+
+    <p style="margin-bottom: 20px;">
+        Sea cucumbers play a very important role in the lives of humans. Their sediment-processing activities contribute to healthy ecosystem functioning. In one case, removing sea cucumbers from reefs increased coral tissue mortality by approximately 370%, highlighting their critical role in maintaining coral reef health [30]. Coral reefs provide essential habitats and breeding grounds for fish, meaning coral loss can reduce fish populations and threaten fisheries that support human food security [31]. This further highlights the ecological importance of sea cucumbers in maintaining healthy reef ecosystems.
+    </p>
+
+    <p style="margin-bottom: 20px;">
+        Our survey indicated that respondents were considerably more familiar with sea cucumbers as seafood than with their ecological contributions [16]. This highlighted an opportunity to introduce visitors to their ecological importance and encourage greater appreciation of these organisms.
+    </p>
+</div>
+
+<!-- CHAPTER 6 -->
+<br />
+<br />
+<sl-divider></sl-divider>
+
+<div>
+    <div id="section-header-6">
+        <h2>6. Design Brief</h2>
+    </div>
+
+    <div id="sub-section-6-header-1">
+        <h3>6.1 Design Objectives</h3>
+
+        <p style="margin-bottom: 20px;">
+            The project aims to develop an interactive educational experience that communicates the ecological functions of sea cucumbers, focusing on their roles in sediment processing and nutrient recycling. The experience seeks to bridge the gap between visitors' factual awareness and a deeper understanding of marine ecological processes and their significance.
+        </p>
+
+        <div id="sub-section-6-1-header-1">
+            <h4>6.1.1 Objective 1 - Enhance Visitor Engagement</h4>
+
+            <p style="margin-bottom: 20px;">
+                The experience aims to encourage active visitor participation through tangible interactions, making the learning experience more engaging.
+            </p>
+
+            <p style="margin-bottom: 20px;">
+                This objective is informed by the project's preliminary survey findings on preferred educational approaches. These findings suggest an opportunity to develop a physically interactive exhibit that aligns with respondents' expressed preferences.
+            </p>
+        </div>
+
+        <div id="sub-section-6-1-header-2">
+            <h4>6.1.2 Objective 2 - Improve Understanding of Sea Cucumber Biological function and Ecological significance</h4>
+
+            <p style="margin-bottom: 20px;">
+                The experience aims to help visitors understand the essential stages of sea cucumber feeding, sediment processing and nutrient recycling through simplified, observable representations of these processes. Beyond biological processes, visitors should also recognise how these processes contribute to marine ecosystem health and, consequently, the ecosystem services upon which humans depend.
+            </p>
+        </div>
+    </div>
+
+    <div id="sub-section-6-header-2">
+        <h3>6.2 Intended Experience and Outcomes</h3>
+
+        <p style="margin-bottom: 20px;">
+            To guide the development of the experience, a 3 stage experiential framework was established. This framework outlines the intended progression from active participation to ecological understanding and more conservation-conscious attitudes and behaviours.
+        </p>
+
+        <div id="sub-section-6-2-header-1">
+            <h4>6.2.1 Intended Learning Experience</h4>
+
+            <p style="margin-bottom: 20px;">
+                The proposed experience when using CuCuWorks follows three interconnected stages, experience, understand and act.
+            </p>
+
+            <p style="margin-bottom: 20px;">
+                In the first 'Experience' stage, the educational experience should encourage visitors to actively participate in simplified representations of sea cucumber feeding and sediment processing. Through hands-on interactions, biological processes that are difficult to observe can be translated into tangible and engaging learning experiences.
+            </p>
+
+            <p style="margin-bottom: 20px;">
+                In the 'Understand' stage, visitors should gain a better understanding of how sea cucumbers contribute to sediment processing, organic matter breakdown and marine ecosystem health.
+            </p>
+
+<p style="margin-bottom: 20px;">
+    This stage should therefore establish a clear connection between the biological processes being demonstrated and their wider ecological significance.
+</p>
+
+<p style="margin-bottom: 20px;">
+    Lastly, in the 'Act' stage, visitors are encouraged to develop greater appreciation for these organisms beyond their role as seafood. This understanding aims to promote more conservation conscious behaviour.
+</p>
+
+        </div>
+    </div>
+</div>
+
+<div id="sub-section-6-2-header-2">
+    <h4>6.2.2 Intended Learning Outcomes</h4>
+
+    <p style="margin-bottom: 20px;">
+The experience aims to encourage visitors to reconsider their perceptions of sea cucumbers as seafood, explore sustainable alternatives and make more informed seafood choices. Although long-term behavioural changes may be difficult to measure, user testing will assess visitors' understanding, attitudes and behavioural intentions.    </p>
+
+    
+    </p>
+</div>
+
+<div id="sub-section-6-header-3">
+    <h3>6.3 Design Requirements</h3>
+
+    <p style="margin-bottom: 20px;">
+        The table below describes our design requirements are supported by our objectives.
+    </p>
+
+    <image-component
+        tag="design-requirements"
+        source="assets/design-requirements.png"
+        subtitle="Table 1. Design Requirements">
+    </image-component>
+</div>
+
+
+<!-- CHAPTER 7 -->
+<br />
+<br />
+<sl-divider></sl-divider>
+
+<div>
+    <div id="section-header-7">
+        <h2>7. Concept Design</h2>
+    </div>
+
+    <div id="sub-section-7-header-1">
+        <h3>7.1 Concept Overview</h3>
+
+        <image-component
+            tag="cucuworks-setup"
+            source="assets/cucuworks-setup.png"
+            subtitle="Fig 5. Entire Set Up of CuCuWorks Experience">
+        </image-component>
+
+        <p style="margin-top: 25px; margin-bottom: 20px;">
+            CuCuWorks was conceptualised as an interactive educational experience comprising a handheld sea cucumber model and accompanying visual displays.
+        </p>
+
+        <div id="sub-section-7-1-header-1">
+            <h4>7.1.1 Model Concept</h4>
+
+            <image-component
+                tag="cucuworks-model"
+                source="assets/cucuworks-model.png"
+                subtitle="Fig 6. Labelled Model of CuCuWorks">
+            </image-component>
+
+            <p style="margin-top: 25px; margin-bottom: 20px;">
+                The model simulates four sequential stages of sea cucumber sediment processing. Through physical manipulation, users are encouraged to actively explore how sea cucumbers perform these biological functions.
+            </p>
+
+            <p style="margin-bottom: 20px;">
+                To enhance tactile interaction, the model will feature a soft silicone exterior surrounding a rigid transparent housing. The silicone reflects the sea cucumber's soft body wall, while a viewing window allows users to observe sediment movement through the internal mechanisms. The feeding tentacles will also have a silicone exterior to further provide a biologically inspired interaction.
+            </p>
+        </div>
+
+        <div id="sub-section-7-1-header-2">
+            <h4>7.1.2 Accompanying Visual Concept</h4>
+
+            <image-component
+                tag="cucuworks-displays"
+                source="assets/cucuworks-displays.png"
+                subtitle="Fig 7. Accompanying Visual Screen Displays">
+            </image-component>
+
+            <p style="margin-top: 25px; margin-bottom: 20px;">
+                The first screen provides step-by-step instructions, while the second visualises improvements in ocean health. Together, these displays connect visitors' physical interactions with the ecological significance of sea cucumber activity.
+            </p>
+        </div>
+    </div>
+
+    <div id="sub-section-7-header-2">
+        <h3>7.2 Technical Design and Working Principles</h3>
+
+        <p style="margin-bottom: 20px;">
+            The technical design of CuCuWorks translates selected anatomical structures and biological functions of sea cucumbers into simplified mechanical interactions. The proposed system is designed to guide users through a sequential sediment processing experience and provide opportunities to observe the movement and separation of sediment particles.
+        </p>
+    </div>
+
+<!-- 7.2.1 ANATOMY-TO-MODEL MAPPING -->
+
+<div id="sub-section-7-2-header-1">
+    <h4>7.2.1 Anatomy-to-Model Mapping</h4>
+
+    <p style="margin-bottom: 20px;">
+        To establish a connection between the physical model and sea cucumber biology, key anatomical structures were identified and mapped to corresponding mechanical components.
+    </p>
+
+    <image-component
+        tag="anatomy-model-comparison"
+        source="assets/anatomy-model-comparison.png"
+        subtitle="Fig 8. Comparison of Sea Cucumber Anatomy and CuCuWorks Model">
+    </image-component>
+
+    <image-component
+        tag="anatomy-model-mapping"
+        source="assets/anatomy-model-mapping.png"
+        subtitle="Table 2. Anatomy to Model Mapping">
+    </image-component>
+
+    <p style="margin-top: 25px; margin-bottom: 20px;">
+        The various features are designed as physical analogies of sea cucumber physiology. The mapping serves as a guide for the mechanical design, ensuring that each interaction corresponds to a biological function rather than functioning solely as an isolated mechanical activity.
+    </p>
+</div>
+
+
+<!-- 7.2.2 WORKING PRINCIPLES AND VISITOR JOURNEY -->
+
+<div id="sub-section-7-2-header-2">
+    <h4>7.2.2 Working Principles and Visitor Journey</h4>
+
+    <p style="margin-bottom: 20px;">
+        The proposed visitor journey consists of four sequential mechanical interactions. Throughout the experience, the display will provide brief instructions linking each mechanical action to its biological function.
+    </p>
+
+    <!-- STAGE 1 -->
+
+    <image-component
+        tag="stage-1-sediment-intake"
+        source="assets/stage-1-sediment-intake.png"
+        subtitle="Fig 9. Stage 1, Sediment Intake Instructional Display">
+    </image-component>
+
+    <p style="margin-top: 25px; margin-bottom: 30px;">
+        Stage 1 is Sediment Intake. Users begin by collecting simulated sediment from the sediment container using the model's feeding tentacles. The proposed flexible silicone-covered tentacles mimic the grasping movements of sea cucumber oral tentacles, allowing users to introduce sediment particles into the model.
+    </p>
+
+    <!-- STAGE 2 -->
+
+    <image-component
+        tag="stage-2-digestion"
+        source="assets/stage-2-digestion.png"
+        subtitle="Fig 10. Stage 2, Digestion Intake Instructional Display">
+    </image-component>
+
+    <p style="margin-top: 25px; margin-bottom: 30px;">
+        Stage 2 consists of Digestion and Sediment Processing. Users rotate a hand crank connected to the coil within the model. The rotating mechanism transports sediment particles through the simulated digestive tract, while a filtering component enables the separation of selected "digested" particles. This interaction provides a simplified representation of sediment processing during digestion.
+    </p>
+
+    <!-- STAGE 3 -->
+
+    <image-component
+        tag="stage-3-nutrient-absorption"
+        source="assets/stage-3-nutrient-absorption.png"
+        subtitle="Fig 11. Stage 3, Nutrient Absorption Intake Instructional Display">
+    </image-component>
+
+    <p style="margin-top: 25px; margin-bottom: 30px;">
+        Stage 3 is Nutrient Absorption. Users subsequently operate a magnetic wand to selectively attract magnetic "nutrient" particles from the sediment mixture. These particles allow users to observe a simplified analogy of nutrient absorption within the digestive tract.
+    </p>
+
+    <!-- STAGE 4 -->
+
+    <image-component
+        tag="stage-4-sediment-output"
+        source="assets/stage-4-sediment-output.png"
+        subtitle="Fig 12. Stage 4 Sediment Output Instructional Display">
+    </image-component>
+
+    <p style="margin-top: 25px; margin-bottom: 30px;">
+        Stage 4 is Sediment Output. Users tilt the model to discharge the remaining sediment through the outlet into a designated collection container. This completes the simulated digestive sequence and provides a visible representation of the sediment processed during the interaction.
+    </p>
+
+    <!-- OCEAN VISUAL FEEDBACK -->
+
+    <image-component
+        tag="ocean-visual-feedback"
+        source="assets/ocean-visual-feedback.png"
+        subtitle="Fig 13. Visual Feedback of Ocean with Progress Bar">
+    </image-component>
+
+    <p style="margin-top: 25px; margin-bottom: 20px;">
+        At Stage 4, processed sediment will be deposited into a weighted collection container, with a progress bar indicating the amount collected. As more sediment is collected, the ocean visuals will gradually transition towards a healthier ecosystem with thriving corals, increased fish populations and reduced waste.
+    </p>
+</div>
+</div>
+
+<!-- 7.3 MECHANICAL IDEATION AND DESIGN ITERATIONS -->
+
+<div id="sub-section-7-header-3">
+    <h3>7.3 Mechanical Ideation and Design Iterations</h3>
+
+    <p style="margin-bottom: 20px;">
+        The initial mechanical ideation focused on translating the four biological processes into physical interactions. Several mechanisms were considered and refined based on their biological representation, interactivity and feasibility. The accompanying sediment collection chamber was also refined to ensure accurate feedback for the accompanying visuals.
+    </p>
+
+    <!-- 7.3.1 DIGESTIVE MECHANISM -->
+
+    <div id="sub-section-7-3-header-1">
+        <h4>7.3.1 Digestive Mechanism</h4>
+
+        <image-component
+            tag="digestive-mechanism"
+            source="assets/digestive-mechanism.png"
+            subtitle="Fig 14. Concept Sketch for Digestive Mechanism">
+        </image-component>
+
+        <p style="margin-top: 25px; margin-bottom: 20px;">
+            The initial concept involved a filter barrel to separate sediment particles. However, a rotating coil was subsequently proposed as its curved structure provided a closer visual representation of the sea cucumber's digestive tract while allowing particles to be transported through the model.
+        </p>
+    </div>
+
+    <!-- 7.3.2 NUTRIENT ABSORPTION -->
+
+    <div id="sub-section-7-3-header-2">
+        <h4>7.3.2 Nutrient Absorption</h4>
+
+        <image-component
+            tag="nutrient-screen"
+            source="assets/nutrient-screen.png"
+            subtitle="Fig 15. Concept Sketch for Nutrient Absorption Represented through Screen">
+        </image-component>
+
+        <image-component
+            tag="tilting-mechanism"
+            source="assets/tilting-mechanism.png"
+            subtitle="Fig 16. Concept Sketch for Tilting Mechanism">
+        </image-component>
+
+        <p style="margin-top: 25px; margin-bottom: 20px;">
+            Initially, nutrient absorption was intended to be demonstrated through a tilting mechanism, where smaller particles would pass through a filter and be visualised through a transparent screen. However, as the filter did not provide one-way separation, the particles could return to their original compartment when the model was tilted back. Additionally, the screen required users to maintain a specific viewing orientation, restricting movement and diverting attention from the physical interaction.
+        </p>
+
+        <image-component
+            tag="magnetic-wand"
+            source="assets/magnetic-wand.png"
+            subtitle="Fig 17. Concept Sketch for Nutrient Absorption Represented through Magnetic Wand">
+        </image-component>
+
+        <p style="margin-top: 25px; margin-bottom: 20px;">
+            The design was therefore revised to incorporate a magnetic wand, allowing for a simpler, more flexible and interactive representation of nutrient absorption. The magnetic wand enables users to selectively collect designated magnetic particles, providing a visible analogy of nutrient extraction.
+        </p>
+    </div>
+
+    <!-- 7.3.3 SEDIMENT INTAKE -->
+
+    <div id="sub-section-7-3-header-3">
+        <h4>7.3.3 Sediment Intake</h4>
+
+        <image-component
+            tag="sediment-intake-concept"
+            source="assets/sediment-intake-concept.png"
+            subtitle="Fig 18. Concept Sketch for Sediment Intake">
+        </image-component>
+
+        <p style="margin-top: 25px; margin-bottom: 20px;">
+            Two intake mechanisms were considered, a button-activated electronic vacuum and a squeeze operated suction mechanism. While the latter offered a more tactile interaction, both mechanisms lacked biological representation, as sea cucumbers use their oral tentacles rather than suction to collect sediment.
+        </p>
+
+        <image-component
+            tag="tentacle-grasping"
+            source="assets/tentacle-grasping.png"
+            subtitle="Fig 19. Concept Sketch for Tentacle Grasping">
+        </image-component>
+
+        <p style="margin-top: 25px; margin-bottom: 20px;">
+            The design is therefore being revised to explore a soft robotic tentacle mechanism that mimics the grasping movements of sea cucumber oral tentacles. The proposed tentacles will incorporate a flexible silicone covering over the mechanical structure to provide a more biologically representative feeding interaction.
+        </p>
+    </div>
+
+    <!-- 7.3.4 COLLECTION FEEDBACK POOL -->
+
+    <div id="sub-section-7-3-header-4">
+        <h4>7.3.4 Collection Feedback Pool</h4>
+
+        <image-component
+            tag="collection-container"
+            source="assets/collection-container.png"
+            subtitle="Fig 20. Concept Sketch for Collection Container and Funnel">
+        </image-component>
+
+        <p style="margin-top: 25px; margin-bottom: 20px;">
+            The open collection chamber was further refined to improve the reliability of sediment detection and prevent unintended visitor interactions. An initially open collection chamber could allow visitors to manually deposit unprocessed sediment or apply pressure to the weighing mechanism, resulting in inaccurate feedback. To address this, a transparent cover with a funnel-shaped opening was proposed, allowing processed sediment to enter while restricting direct access to the collection chamber. The weighing mechanism would also be concealed beneath the chamber to minimise interference with weight measurements.
+        </p>
+    </div>
+</div>
+
+<!-- 7.4 CURRENT DESIGN LIMITATIONS -->
+
+<div id="sub-section-7-header-4">
+    <h3>7.4 Current Design Limitations</h3>
+
+    <p style="margin-bottom: 20px;">
+        The preliminary design has three key limitations.
+
+Firstly, the mechanisms simplify sea cucumber physiology, requiring clear educational explanations to maintain scientific accuracy.
+
+Secondly, CAD models and digital simulations demonstrate intended interactions but do not verify mechanical performance or tactile experience.
+
+Lastly, material selection, particle handling, storage and resetting require further testing to ensure reliability and practicality in a museum environment.
+
+    </p>
+
+    <p style="margin-bottom: 20px;">
+        These limitations inform the subsequent prototyping and testing strategy.
+    </p>
+</div>
+
+<!-- SECTION 8: PROTOTYPING AND TESTING PLAN -->
+
+<br />
+<br />
+<sl-divider></sl-divider>
+
+<div>
+
+    <div id="section-header-8">
+        <h2>8. Prototyping and Testing Plan</h2>
+
+        <p>
+           The next phase will involve fabricating and testing individual mechanisms before integrating them into a functional CuCuWorks prototype. The minimum viable prototype (MVP) will prioritise the four sediment-processing stages, with the silicone exterior and digital feedback system incorporated during subsequent iterations.
+        </p>
+
+    </div>
+
+
+    <!-- SECTION 8.1: CAD AND DIGITAL SIMULATION -->
+
+    <div id="sub-section-8-header-1">
+
+        <h3>8.1 Preliminary CAD and Digital Simulation Prototype</h3>
+
+        <!-- FIGURE 21: CAD MODEL -->
+
+        <image-component
+            tag="cucuworks-cad"
+            source="assets/cucuworks-cad.png"
+            subtitle="Fig 21. CAD for CuCuWorks Model">
+        </image-component>
+
+        <p>
+            Preliminary computer-aided design (CAD) and digital
+            simulation models were developed to visualise the
+            proposed CuCuWorks concept and explore the arrangement
+            of its internal mechanisms. The CAD model illustrates
+            the overall structure of the handheld device, including
+            the internal chamber, rotating helical coil, magnetic
+            wand and sediment outlet.
+        </p>
+
+
+        <!-- VIDEO: MOVING CAD SIMULATION -->
+
+        <div style="text-align: center; margin: 30px 0;">
+
+            <video controls playsinline
+                   style="width: 100%; max-width: 800px;">
+
+                <source
+                    src="assets/cucuworks-cad-simulation.mp4"
+                    type="video/mp4">
+
+                Your browser does not support video playback.
+
+            </video>
+
+            <p style="text-align: center;">
+                Video 1. CuCuWorks CAD Model Simulation
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<div id="sub-section-8-header-2">
+  <h3>8.2 Digital Simulation Prototype</h3>
+
+  <p>
+    A digital simulation was developed to demonstrate sediment intake, particle transport, nutrient separation and sediment output. Instructional steps, ocean visuals and a progress tracker illustrate the intended visitor experience before physical fabrication.
+  </p>
+
+  <figure style="text-align: center;">
+    <img
+      src="assets/digital-simulation.png"
+      alt="Digital simulation of CuCuWorks with accompanying ocean visuals"
+      style="width: 100%; height: auto;"
+    >
+    <figcaption>
+      Fig 22. Digital Simulation of CuCuWorks with Accompanying Visuals
+    </figcaption>
+  </figure>
+
+  <figure style="text-align: center;">
+    <video
+      controls
+      playsinline
+      preload="metadata"
+      style="width: 100%; height: auto;"
+    >
+      <source
+        src="assets/cucuworks-digital-simulation.mp4"
+        type="video/mp4"
+      >
+      Your browser does not support video playback.
+    </video>
+    <figcaption>
+      Video 2. CuCuWorks Interactive Digital Simulation
+    </figcaption>
+  </figure>
+
+  <p>
+    These preliminary models serve as a foundation for physical
+    prototyping to evaluate mechanical functionality, material
+    suitability and integration with the accompanying visuals.
+  </p>
+</div>
+
+<div id="sub-section-8-header-3">
+  <h3>8.3 Material Considerations for CuCuWorks</h3>
+
+  <p>
+    Material selection will focus on balancing mechanical
+    functionality, transparency, tactile representation,
+    durability and ease of fabrication. The proposed
+    materials and engineering specifications are summarised
+    in the tables below. These will guide initial fabrication
+    and be refined based on component testing and system
+    integration.
+  </p>
+
+  <figure style="text-align: center;">
+    <img
+      src="assets/engineering-specifications.png"
+      alt="Preliminary Engineering Specifications"
+      style="width: 100%; height: auto;"
+    >
+    <figcaption>
+      Table 3. Preliminary Engineering Specifications
+    </figcaption>
+  </figure>
+
+  <figure style="text-align: center;">
+    <img
+      src="assets/material-selection.png"
+      alt="Proposed Material Selection"
+      style="width: 100%; height: auto;"
+    >
+    <figcaption>
+      Table 4. Proposed Material Selection
+    </figcaption>
+  </figure>
+
+  <div id="sub-section-8-header-3-1">
+    <h4>8.3.1 Sand Composition</h4>
+
+    <p>
+      The simulated sediment mixture must support particle
+      transport, separation and discharge while maintaining
+      clear biological representation. The proposed composition
+      is indicated in the table below.
+    </p>
+
+    <p>
+      Material testing will evaluate particle size, shape and
+      compatibility with the proposed mechanisms, particularly
+      to minimise jamming, ensure effective separation and
+      allow repeated reuse.
+    </p>
+  </div>
+
+  <div id="sub-section-8-header-3-2">
+    <h4>8.3.2 Accompanying Visuals and Feedback Integration</h4>
+
+    <p>
+      Prototyping of the visual feedback system will focus on
+      integrating sediment detection with the accompanying
+      digital display. Initial development will explore the
+      use of weight measurements from the collection container
+      to update the progress tracker and trigger changes in
+      the ocean visuals.
+    </p>
+
+    <p>
+      Testing will focus on establishing reliable communication
+      between the physical and digital components, including
+      the responsiveness and accuracy. The visual progression
+      will also be refined to ensure that changes in the marine
+      environment appropriately communicate the ecological
+      significance of sea cucumber activity.
+    </p>
+  </div>
+</div>
+
+<div id="sub-section-8-header-4">
+
+  <h3>8.4 Proposed Testing and Evaluation</h3>
+
+  <p>
+    The proposed testing strategy will evaluate both the
+    technical functionality and educational effectiveness
+    of CuCuWorks. Testing will be conducted progressively,
+    beginning with individual mechanical components before
+    moving towards system integration and user evaluation.
+  </p>
+
+  <div id="sub-section-8-header-4-1">
+
+    <h4>8.4.1 Mechanical Testing</h4>
+
+    <p>
+      Initial mechanical testing will focus on determining
+      whether the proposed mechanisms can reliably perform
+      their intended functions. The table below explains
+      how each mechanism is tested and what it is tested for.
+    </p>
+
+    <figure style="text-align: center;">
+      <img
+        src="assets/mechanical-testing-plan.png"
+        alt="Proposed Mechanical Testing Plan"
+        style="width: 100%; height: auto;"
+      >
+      <figcaption>
+        Table 5. Proposed Mechanical Testing Plan
+      </figcaption>
+    </figure>
+
+  </div>
+
+  <div id="sub-section-8-header-4-2">
+
+    <h4>8.4.2 User Testing</h4>
+
+    <p>
+      User testing will evaluate the usability and
+      interaction experience of CuCuWorks, particularly
+      among the intended younger audience.
+    </p>
+
+    <p>
+      Testing will assess visitor motivation, usability
+      and content understanding, with the aim of identifying
+      and removing physical, emotional and intellectual
+      barriers to engagement [32]. The table below
+      summarises what will be recorded in each part of
+      the observational evaluation and the research
+      finding it is based on.
+    </p>
+
+    <figure style="text-align: center;">
+      <img
+        src="assets/user-testing-plan.png"
+        alt="Proposed User Testing Plan"
+        style="width: 100%; height: auto;"
+      >
+      <figcaption>
+        Table 6. Proposed User Testing Plan
+      </figcaption>
+    </figure>
+
+    <p>
+      Observations will be recorded on a structured sheet
+      matched to the exhibit's learning outcomes, and the
+      prototype will be risk assessed before testing with
+      the public. The findings will be used to identify
+      underlying interaction barriers, rather than surface
+      changes, and to guide design refinements.
+    </p>
+
+  </div>
+
+</div>
+
+<div id="sub-section-8-header-4-3">
+
+  <h4>8.4.3 Educational Evaluation</h4>
+
+  <p>
+    Educational evaluation will assess the effectiveness of
+    CuCuWorks in communicating the biological functions and
+    ecological significance of sea cucumbers through a before,
+    during and after approach. The assessment draws on research
+    into museum learning outcomes [33], UNESCO's Ocean Literacy
+    framework for marine ecological understanding [34], and
+    dwell time as an indicator of engagement [35].
+  </p>
+
+  <p>
+    Before the interaction, a short questionnaire will assess
+    participants' baseline understanding of sea cucumber
+    functions and marine ecological processes. During the
+    interaction, observations will record engagement,
+    interaction time and enjoyment. Recruited participants
+    tend to stay longer and read more labels than natural
+    visitors, so dwell time will be interpreted cautiously [32].
+    After the interaction, open-ended questions will assess
+    understanding of sediment processing, ecological significance
+    and conservation-related attitudes, with drawings or
+    picture prompts to support younger participants [32].
+  </p>
+
+  <p>
+    The findings will evaluate immediate learning outcomes,
+    engagement and behavioural intentions, while informing
+    future design refinements.
+  </p>
+
+</div>
+
+<div id="sub-section-8-header-5">
+
+  <h3>8.5 Roadmap and Milestones</h3>
+
+  <p>
+    The proposed project timeline and key milestones are
+    summarised in the Gantt chart below.
+  </p>
+
+  <figure style="text-align: center;">
+    <img
+      src="assets/gantt-chart.png"
+      alt="Gantt chart showing the CuCuWorks project timeline"
+      style="width: 100%; height: auto;"
+    >
+    <figcaption>
+      Fig 23. Gantt Chart
+    </figcaption>
+  </figure>
+
+  <p>
+    CuCuWorks development comprises five phases.
+  </p>
+
+  <p>
+    <strong>Phase 0: Design Finalisation</strong> focuses on refining
+    the visitor journey, mechanical mechanisms and accompanying
+    visual feedback system to establish a clear direction for
+    physical development.
+  </p>
+
+  <p>
+    <strong>Phase 1: Material Exploration and Prototyping</strong>
+    involves sourcing and testing suitable materials, fabricating
+    individual mechanisms and integrating them into the first
+    functional prototype (V1).
+  </p>
+
+  <p>
+    <strong>Phase 2: Initial Testing and Evaluation</strong>
+    focuses on preparing evaluation instruments and conducting
+    the first round of usability and educational testing to
+    identify interaction difficulties and assess preliminary
+    learning outcomes.
+  </p>
+
+  <p>
+    <strong>Phase 3: Iteration and Validation</strong> involves
+    analysing feedback, refining the design and developing
+    Prototype V2. A second round of testing will evaluate the
+    effectiveness of these improvements, with further iterations
+    conducted if necessary.
+  </p>
+
+  <p>
+    <strong>Phase 4: Finalisation</strong> focuses on completing
+    the integrated prototype, consolidating evaluation findings and preparing the final report and presentation.
+
+  </p>
+
+</div>
+
+<div id="sub-section-8-header-6">
+
+  <h3>8.4 Expected Outcomes</h3>
+
+  <p>
+    By the end of the project, we aim to develop a functional
+    CuCuWorks prototype that demonstrates the four stages of
+    sea cucumber sediment processing through tangible mechanical
+    interactions. Mechanical and user testing will evaluate the
+    prototype's functionality, reliability and usability, while
+    educational evaluation will assess visitors' understanding
+    and appreciation of sea cucumbers.
+  </p>
+
+  <p>
+    We hope to integrate CuCuWorks into the Lee Kong Chian
+    Natural History Museum's Monsoon Rise expedition outreach,
+    translating scientific findings from the expedition into
+    an interactive educational experience that promotes
+    ocean literacy.
+  </p>
+
+</div>
+
+
+    <!-- This is an example of how you can use the references component to create references -->
+    
+<div id="references" class="references">
+  <sl-divider></sl-divider>
+  <h2>References</h2>
+  <ul>
+    <li>
+      [1] National Oceanic and Atmospheric Administration. (n.d.).
+      Ocean and climate literacy. NOAA Ocean Service.
+      <a href="https://oceanservice.noaa.gov/education/literacy.html">https://oceanservice.noaa.gov/education/literacy.html</a>
+    </li>
+
+    <li>
+      [2] Purcell, S. W., Conand, C., Uthicke, S., &amp; Byrne, M. (2016).
+      Ecological roles of exploited sea cucumbers.
+      <em>Oceanography and Marine Biology: An Annual Review, 54</em>, 367–386.
+      <a href="https://researchportal.scu.edu.au/esploro/outputs/journalArticle/Ecological-roles-of-exploited-sea-cucumbers/991012820548202368">Source</a>
+    </li>
+
+    <li>
+      [3] Purcell, S. W., et al. (2013).
+      Sea cucumber fisheries: Global analysis of stocks, management measures and drivers of overfishing.
+      <em>Fish and Fisheries, 14</em>(1), 34–59.
+      <a href="https://doi.org/10.1111/j.1467-2979.2011.00443.x">https://doi.org/10.1111/j.1467-2979.2011.00443.x</a>
+    </li>
+
+    <li>
+      [4] Kolb, A. Y., &amp; Kolb, D. A. (2005).
+      Learning styles and learning spaces: Enhancing experiential learning in higher education.
+      <em>Academy of Management Learning &amp; Education, 4</em>(2), 193–212.
+      <a href="https://doi.org/10.5465/amle.2005.17268566">https://doi.org/10.5465/amle.2005.17268566</a>
+    </li>
+
+    <li>
+      [5] Allen, S. (2004).
+      Designs for learning: Studying science museum exhibits that do more than entertain.
+      <em>Science Education, 88</em>(S1), S17–S33.
+      <a href="https://doi.org/10.1002/sce.20016">https://doi.org/10.1002/sce.20016</a>
+    </li>
+
+    <li>
+      [6] OceanX. (n.d.). OceanX education.
+      <a href="https://oceanx.org/">https://oceanx.org/</a>
+    </li>
+
+    <li>
+      [7] Lee Kong Chian Natural History Museum. (n.d.).
+      Education. National University of Singapore.
+      <a href="https://lkcnhm.nus.edu.sg/">https://lkcnhm.nus.edu.sg/</a>
+    </li>
+
+    
+<li>
+  [8] National University of Singapore. (2025, October 8).
+  Into the deep: NUS researchers set sail on 24-day mission
+  with OceanX to study marine biodiversity.
+  <em>NUS News</em>.
+  <a href="https://news.nus.edu.sg/nus-researchers-set-sail-on-mission-with-oceanx">
+    https://news.nus.edu.sg/nus-researchers-set-sail-on-mission-with-oceanx
+  </a>
+</li>
+
+
+    <li>
+      [9] National Marine Educators Association. (2024).
+      <em>Ocean literacy: The essential principles and fundamental concepts of ocean sciences for learners of all ages</em> (Version 3.2).
+      <a href="https://oceanservice.noaa.gov/education/literacy.html">Source</a>
+    </li>
+
+    <li>
+      [10] Uthicke, S. (2001).
+      Nutrient regeneration by abundant coral reef holothurians.
+      <em>Journal of Experimental Marine Biology and Ecology, 265</em>(2), 153–170.
+      <a href="https://doi.org/10.1016/S0022-0981(01)00329-X">https://doi.org/10.1016/S0022-0981(01)00329-X</a>
+    </li>
+
+    <li>
+      [11] Fauville, G., Strang, C., Cannady, M. A., &amp; Chen, Y.-F. (2019).
+      Development of the International Ocean Literacy Survey: Measuring knowledge across the world.
+      <em>Environmental Education Research, 25</em>(2), 238–263.
+      <a href="https://doi.org/10.1080/13504622.2018.1440381">https://doi.org/10.1080/13504622.2018.1440381</a>
+    </li>
+
+    <li>
+      [12] Lindoso, V. F. G., Hart, N., &amp; Christofoletti, R. A. (2026).
+      From education to engagement: Rethinking ocean literacy through strategic communications.
+      In <em>Ocean literacy: The foundation for the success of the Ocean Decade</em>
+      (Vol. III, pp. 25–39). Springer.
+      <a href="https://doi.org/10.1007/978-3-032-14477-5_2">https://doi.org/10.1007/978-3-032-14477-5_2</a>
+    </li>
+
+    <li>
+  [13] Lee Kong Chian Natural History Museum. (2025, November 5).
+  Mission complete! OceanX–NUS Into the Deep: Monsoon Rise.
+  National University of Singapore.
+  <a href="https://lkcnhm.nus.edu.sg/mission-complete-oceanx-nus-into-the-deep-monsoon-rise/">
+    https://lkcnhm.nus.edu.sg/mission-complete-oceanx-nus-into-the-deep-monsoon-rise/
+  </a>
+</li>
+
+    <li>
+      [14] Netflix. (2019, January 30).
+      Netflix announces multi-year overall deal with James Honeyborne.
+      <a href="https://about.netflix.com/en/news/netflix-announces-multi-year-overall-deal-with-james-honeyborne">Source</a>
+    </li>
+
+    <li>
+      [15] Finisterre. (2021, June 17).
+      How storytelling can inspire change | #SeaOurFuture.
+      <a href="https://finisterre.com/blogs/broadcast/how-storytelling-can-inspire-change-seaourfuture">Source</a>
+    </li>
+
+    <li>
+  [16] CDE4301 CuCuWorks Team. (2026).
+  <em>Public perception and user needs survey on marine
+  ecosystems and educational approaches</em>
+ 
+  National University of Singapore.
+  <a href="Phttps://docs.google.com/spreadsheets/d/1qHQsaaRr_ONhVuNZZsyFyfLPvemE5X6EvCMgv5N2--o/edit?usp=sharing" target="_blank"
+     rel="noopener noreferrer">
+    View survey results
+  </a>
+</li>
+
+    <li>
+      [17] National Marine Educators Association. (2024).
+      <em>Ocean literacy: The essential principles and fundamental concepts of ocean sciences for learners of all ages</em> (Version 3.2).
+      <a href="https://oceanservice.noaa.gov/education/literacy.html">Source</a>
+    </li>
+
+    <li>
+      [18] Uthicke, S. (2001).
+      Nutrient regeneration by abundant coral reef holothurians.
+      <em>Journal of Experimental Marine Biology and Ecology, 265</em>(2), 153–170.
+      <a href="https://doi.org/10.1016/S0022-0981(01)00329-X">Source</a>
+    </li>
+
+    <li>
+      [19] Allen, S. (2004).
+      Designs for learning: Studying science museum exhibits that do more than entertain.
+      <em>Science Education, 88</em>(S1), S17–S33.
+      <a href="https://doi.org/10.1002/sce.20016">Source</a>
+    </li>
+
+    <li>
+      [20] Maggipinto, B., et al. (2025).
+      Diving into the abyss: Exploring deep sea connection and curiosity through virtual reality.
+      In <em>Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems</em>
+      (Article 770).
+      <a href="https://doi.org/10.1145/3706598.3713833">https://doi.org/10.1145/3706598.3713833</a>
+    </li>
+
+    <li>
+      [21] Kolb, A. Y., &amp; Kolb, D. A. (2005).
+      Learning styles and learning spaces: Enhancing experiential learning in higher education.
+      <em>Academy of Management Learning &amp; Education, 4</em>(2), 193–212.
+      <a href="https://doi.org/10.5465/amle.2005.17268566">Source</a>
+    </li>
+
+    <li>
+      [22] Freeman, S., Eddy, S. L., McDonough, M., Smith, M. K.,
+      Okoroafor, N., Jordt, H., &amp; Wenderoth, M. P. (2014).
+      Active learning increases student performance in science, engineering, and mathematics.
+      <em>Proceedings of the National Academy of Sciences, 111</em>(23), 8410–8415.
+      <a href="https://doi.org/10.1073/pnas.1319030111">https://doi.org/10.1073/pnas.1319030111</a>
+    </li>
+
+    <li>
+      [23] Deslauriers, L., McCarty, L. S., Miller, K., Callaghan, K., &amp; Kestin, G. (2019).
+      Measuring actual learning versus feeling of learning in response to being actively engaged in the classroom.
+      <em>Proceedings of the National Academy of Sciences, 116</em>(39), 19251–19257.
+      <a href="https://doi.org/10.1073/pnas.1821936116">https://doi.org/10.1073/pnas.1821936116</a>
+    </li>
+
+    <li>
+      [24] Serrell, B. (1998).
+      <em>Paying attention: Visitors and museum exhibitions</em>.
+      American Association of Museums.
+    </li>
+
+    <li>
+      [25] Fauville, G., Strang, C., Cannady, M. A., &amp; Chen, Y.-F. (2019).
+      Development of the International Ocean Literacy Survey: Measuring knowledge across the world.
+      <em>Environmental Education Research, 25</em>(2), 238–263.
+      <a href="https://doi.org/10.1080/13504622.2018.1440381">Source</a>
+    </li>
+
+    <li>
+      [26] Falk, J. H., &amp; Dierking, L. D. (2013).
+      <em>The museum experience revisited</em>. Left Coast Press.
+    </li>
+
+    <li>
+      [27] CDE4301 Project Team. (2026).
+      <em>Initial concept exploration: Deep-sea crabs, bioluminescence, and sea cucumbers</em>
+      [Unpublished project documentation]. National University of Singapore.
+    </li>
+
+    <li>
+      [28] Pierrat, J., Bédier, A., Eeckhaut, I., Magalon, H., &amp; Frouin, P. (2022).
+      Sophistication in a seemingly simple creature: A review of wild holothurian nutrition in marine ecosystems.
+      <em>Biological Reviews, 97</em>(1), 273–298.
+      <a href="https://doi.org/10.1111/brv.12799">https://doi.org/10.1111/brv.12799</a>
+    </li>
+
+    <li>
+      [29] Pasquini, V., et al. (2023).
+      Outcomes of feeding activity of the sea cucumber Holothuria tubulosa on quantity,
+      biochemical composition, and nutritional quality of sedimentary organic matter.
+      <em>Frontiers in Marine Science, 9</em>, Article 1010014.
+      <a href="https://doi.org/10.3389/fmars.2022.1010014">https://doi.org/10.3389/fmars.2022.1010014</a>
+    </li>
+
+    <li>
+      [30] Clements, C. S., Pratte, Z. A., Stewart, F. J., &amp; Hay, M. E. (2024).
+      Removal of detritivore sea cucumbers from reefs increases coral disease.
+      <em>Nature Communications, 15</em>, Article 1338.
+      <a href="https://doi.org/10.1038/s41467-024-45730-0">https://doi.org/10.1038/s41467-024-45730-0</a>
+    </li>
+
+    <li>
+      [31] National Oceanic and Atmospheric Administration. (n.d.).
+      Why are coral reefs important? NOAA Ocean Service.
+      <a href="https://oceanservice.noaa.gov/education/tutorial_corals/coral07_importance.html">Source</a>
+    </li>
+
+    <li>
+      [32] Davis, S., &amp; Audience Research and Advocacy Group. (2007).
+      <em>Lessons from Launchpad: Prototype testing</em>. Science Museum.
+    </li>
+
+    <li>
+      [33] Hooper-Greenhill, E., Dodd, J., Moussouri, T., Jones, C.,
+      Pickford, C., Herman, C., Morrison, M., Vincent, J., &amp; Toon, R. (2003).
+      <em>Measuring the outcomes and impact of learning in museums, archives and libraries:
+      The Learning Impact Research Project end of project paper</em>.
+      Research Centre for Museums and Galleries, University of Leicester.
+    </li>
+
+    <li>
+      [34] UNESCO Ocean Literacy. (n.d.).
+      About ocean literacy.
+      <a href="https://oceanliteracy.unesco.org/about">https://oceanliteracy.unesco.org/about</a>
+    </li>
+
+    <li>
+      [35] Serrell, B. (1997).
+      Paying attention: The duration and allocation of visitors' time in museum exhibitions.
+      <em>Curator: The Museum Journal, 40</em>(2), 108–125.
+      <a href="https://doi.org/10.1111/j.2151-6952.1997.tb01292.x">https://doi.org/10.1111/j.2151-6952.1997.tb01292.x</a>
+    </li>
+  </ul>
+</div>
+
+  
+
+  <script src="https://unpkg.com/gridjs/dist/gridjs.umd.js"></script>
+  <script type="module" src="./components/table-component/table-component.js"></script>
+</body>
+
+</html>
